@@ -1,4 +1,4 @@
-const getFirstNames = require('../utilities/utils/index.js')
+const getFirstNames = require('../utilities/utils')
 
 const getPeopleInCity = peopleNames => {
   return getFirstNames(peopleNames)
